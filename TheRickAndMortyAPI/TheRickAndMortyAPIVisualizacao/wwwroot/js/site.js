@@ -58,7 +58,15 @@ function CriarTabela() {
             processing: "Processando...",
             emptyTable: "Não há dados disponíveis na tabela"
         },
-        responsive: true
+        responsive: true,
+        data: [],
+        columns: [
+            {title: "ID"},
+            {title: "Name"},
+            {title: "Status"},
+            {title: "Species"},
+            {title: "Gender"}
+        ]
     });
 
     return tabela;

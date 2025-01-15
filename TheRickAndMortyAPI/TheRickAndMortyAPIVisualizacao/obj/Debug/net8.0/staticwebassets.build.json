@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "t0H/eUxi0hhd6h4/7Wc6RlblV80+ELwubwskvF0/MSM=",
+  "Hash": "D9ShHae6ZTykl9Hi62xcB4xxY9KlYsaLKyLznJCPocM=",
   "Source": "TheRickAndMortyAPIVisualizacao",
   "BasePath": "_content/TheRickAndMortyAPIVisualizacao",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "dyjx89twm7",
-      "Integrity": "u4DszuiY1WLPnENub5+KbAlwyJCcCHdKlyaXaKLaRqk=",
+      "Fingerprint": "3r8b2a0bt1",
+      "Integrity": "8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -94,14 +94,59 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "lyoloeouxe",
-      "Integrity": "Y37mboFJqTfbMlI+K1VsfRo/FVnbuzxJHd5b1NSTADA=",
+      "Fingerprint": "a2f04jpxcr",
+      "Integrity": "vjPoeyDGTobDv8eNzoHHrASYhcO5IkbYGw5OZYMCy5w=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     }
   ],
   "Endpoints": [
+    {
+      "Route": "css/site.3r8b2a0bt1.css",
+      "AssetFile": "C:\\Users\\compu\\OneDrive\\Área de Trabalho\\SL\\TheRickAndMortyAPI\\TheRickAndMortyAPI\\TheRickAndMortyAPIVisualizacao\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 15 Jan 2025 13:43:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3r8b2a0bt1"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U="
+        }
+      ]
+    },
     {
       "Route": "css/site.css",
       "AssetFile": "C:\\Users\\compu\\OneDrive\\Área de Trabalho\\SL\\TheRickAndMortyAPI\\TheRickAndMortyAPI\\TheRickAndMortyAPIVisualizacao\\wwwroot\\css\\site.css",
@@ -113,7 +158,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "14"
+          "Value": "3"
         },
         {
           "Name": "Content-Type",
@@ -121,11 +166,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"u4DszuiY1WLPnENub5+KbAlwyJCcCHdKlyaXaKLaRqk=\""
+          "Value": "\"8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 13:38:39 GMT"
+          "Value": "Wed, 15 Jan 2025 13:43:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -135,13 +180,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-u4DszuiY1WLPnENub5+KbAlwyJCcCHdKlyaXaKLaRqk="
+          "Value": "sha256-8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U="
         }
       ]
     },
     {
-      "Route": "css/site.dyjx89twm7.css",
-      "AssetFile": "C:\\Users\\compu\\OneDrive\\Área de Trabalho\\SL\\TheRickAndMortyAPI\\TheRickAndMortyAPI\\TheRickAndMortyAPIVisualizacao\\wwwroot\\css\\site.css",
+      "Route": "js/site.a2f04jpxcr.js",
+      "AssetFile": "C:\\Users\\compu\\OneDrive\\Área de Trabalho\\SL\\TheRickAndMortyAPI\\TheRickAndMortyAPI\\TheRickAndMortyAPIVisualizacao\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -150,19 +195,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "14"
+          "Value": "2337"
         },
         {
           "Name": "Content-Type",
-          "Value": "text/css"
+          "Value": "text/javascript"
         },
         {
           "Name": "ETag",
-          "Value": "\"u4DszuiY1WLPnENub5+KbAlwyJCcCHdKlyaXaKLaRqk=\""
+          "Value": "\"vjPoeyDGTobDv8eNzoHHrASYhcO5IkbYGw5OZYMCy5w=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 13:38:39 GMT"
+          "Value": "Wed, 15 Jan 2025 13:54:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -172,15 +217,15 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "dyjx89twm7"
+          "Value": "a2f04jpxcr"
         },
         {
           "Name": "label",
-          "Value": "css/site.css"
+          "Value": "js/site.js"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-u4DszuiY1WLPnENub5+KbAlwyJCcCHdKlyaXaKLaRqk="
+          "Value": "sha256-vjPoeyDGTobDv8eNzoHHrASYhcO5IkbYGw5OZYMCy5w="
         }
       ]
     },
@@ -195,7 +240,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2000"
+          "Value": "2337"
         },
         {
           "Name": "Content-Type",
@@ -203,11 +248,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Y37mboFJqTfbMlI+K1VsfRo/FVnbuzxJHd5b1NSTADA=\""
+          "Value": "\"vjPoeyDGTobDv8eNzoHHrASYhcO5IkbYGw5OZYMCy5w=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 13:34:41 GMT"
+          "Value": "Wed, 15 Jan 2025 13:54:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -217,52 +262,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Y37mboFJqTfbMlI+K1VsfRo/FVnbuzxJHd5b1NSTADA="
-        }
-      ]
-    },
-    {
-      "Route": "js/site.lyoloeouxe.js",
-      "AssetFile": "C:\\Users\\compu\\OneDrive\\Área de Trabalho\\SL\\TheRickAndMortyAPI\\TheRickAndMortyAPI\\TheRickAndMortyAPIVisualizacao\\wwwroot\\js\\site.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2000"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Y37mboFJqTfbMlI+K1VsfRo/FVnbuzxJHd5b1NSTADA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 13:34:41 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "lyoloeouxe"
-        },
-        {
-          "Name": "label",
-          "Value": "js/site.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Y37mboFJqTfbMlI+K1VsfRo/FVnbuzxJHd5b1NSTADA="
+          "Value": "sha256-vjPoeyDGTobDv8eNzoHHrASYhcO5IkbYGw5OZYMCy5w="
         }
       ]
     },
@@ -289,7 +289,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 11:22:36 GMT"
+          "Value": "Wed, 15 Jan 2025 13:45:35 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -334,7 +334,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 11:22:36 GMT"
+          "Value": "Wed, 15 Jan 2025 13:45:35 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -379,7 +379,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 11:22:36 GMT"
+          "Value": "Wed, 15 Jan 2025 13:45:35 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -416,7 +416,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 11:22:36 GMT"
+          "Value": "Wed, 15 Jan 2025 13:45:35 GMT"
         },
         {
           "Name": "Cache-Control",

@@ -1,40 +1,40 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/TheRickAndMortyAPIVisualizacao/css/site.3r8b2a0bt1.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"3r8b2a0bt1"},{"Name":"integrity","Value":"sha256-8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U="},{"Name":"label","Value":"_content/TheRickAndMortyAPIVisualizacao/css/site.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00228ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=\u0022"},{"Name":"Last-Modified","Value":"Wed, 15 Jan 2025 13:43:00 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/TheRickAndMortyAPIVisualizacao/css/site.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-u4DszuiY1WLPnENub5\u002BKbAlwyJCcCHdKlyaXaKLaRqk="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"14"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022u4DszuiY1WLPnENub5\u002BKbAlwyJCcCHdKlyaXaKLaRqk=\u0022"},{"Name":"Last-Modified","Value":"Wed, 15 Jan 2025 13:38:39 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00228ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=\u0022"},{"Name":"Last-Modified","Value":"Wed, 15 Jan 2025 13:43:00 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/TheRickAndMortyAPIVisualizacao/css/site.dyjx89twm7.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/TheRickAndMortyAPIVisualizacao/js/site.a2f04jpxcr.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"dyjx89twm7"},{"Name":"integrity","Value":"sha256-u4DszuiY1WLPnENub5\u002BKbAlwyJCcCHdKlyaXaKLaRqk="},{"Name":"label","Value":"_content/TheRickAndMortyAPIVisualizacao/css/site.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"14"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022u4DszuiY1WLPnENub5\u002BKbAlwyJCcCHdKlyaXaKLaRqk=\u0022"},{"Name":"Last-Modified","Value":"Wed, 15 Jan 2025 13:38:39 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"a2f04jpxcr"},{"Name":"integrity","Value":"sha256-vjPoeyDGTobDv8eNzoHHrASYhcO5IkbYGw5OZYMCy5w="},{"Name":"label","Value":"_content/TheRickAndMortyAPIVisualizacao/js/site.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2337"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022vjPoeyDGTobDv8eNzoHHrASYhcO5IkbYGw5OZYMCy5w=\u0022"},{"Name":"Last-Modified","Value":"Wed, 15 Jan 2025 13:54:40 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/TheRickAndMortyAPIVisualizacao/js/site.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Y37mboFJqTfbMlI\u002BK1VsfRo/FVnbuzxJHd5b1NSTADA="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2000"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022Y37mboFJqTfbMlI\u002BK1VsfRo/FVnbuzxJHd5b1NSTADA=\u0022"},{"Name":"Last-Modified","Value":"Wed, 15 Jan 2025 13:34:41 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/TheRickAndMortyAPIVisualizacao/js/site.lyoloeouxe.js">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"lyoloeouxe"},{"Name":"integrity","Value":"sha256-Y37mboFJqTfbMlI\u002BK1VsfRo/FVnbuzxJHd5b1NSTADA="},{"Name":"label","Value":"_content/TheRickAndMortyAPIVisualizacao/js/site.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2000"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022Y37mboFJqTfbMlI\u002BK1VsfRo/FVnbuzxJHd5b1NSTADA=\u0022"},{"Name":"Last-Modified","Value":"Wed, 15 Jan 2025 13:34:41 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-vjPoeyDGTobDv8eNzoHHrASYhcO5IkbYGw5OZYMCy5w="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2337"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022vjPoeyDGTobDv8eNzoHHrASYhcO5IkbYGw5OZYMCy5w=\u0022"},{"Name":"Last-Modified","Value":"Wed, 15 Jan 2025 13:54:40 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/TheRickAndMortyAPIVisualizacao/TheRickAndMortyAPIVisualizacao.85u7ml4y4l.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\TheRickAndMortyAPIVisualizacao.85u7ml4y4l.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"85u7ml4y4l"},{"Name":"integrity","Value":"sha256-XJ4hKy\u002B6qogfjQD3FVkwvBWnWoEzl2/eVtW7bnJlsSM="},{"Name":"label","Value":"_content/TheRickAndMortyAPIVisualizacao/TheRickAndMortyAPIVisualizacao.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1148"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022XJ4hKy\u002B6qogfjQD3FVkwvBWnWoEzl2/eVtW7bnJlsSM=\u0022"},{"Name":"Last-Modified","Value":"Wed, 15 Jan 2025 11:22:36 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1148"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022XJ4hKy\u002B6qogfjQD3FVkwvBWnWoEzl2/eVtW7bnJlsSM=\u0022"},{"Name":"Last-Modified","Value":"Wed, 15 Jan 2025 13:45:35 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/TheRickAndMortyAPIVisualizacao/TheRickAndMortyAPIVisualizacao.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\TheRickAndMortyAPIVisualizacao.85u7ml4y4l.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-XJ4hKy\u002B6qogfjQD3FVkwvBWnWoEzl2/eVtW7bnJlsSM="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1148"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022XJ4hKy\u002B6qogfjQD3FVkwvBWnWoEzl2/eVtW7bnJlsSM=\u0022"},{"Name":"Last-Modified","Value":"Wed, 15 Jan 2025 11:22:36 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1148"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022XJ4hKy\u002B6qogfjQD3FVkwvBWnWoEzl2/eVtW7bnJlsSM=\u0022"},{"Name":"Last-Modified","Value":"Wed, 15 Jan 2025 13:45:35 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
   </ItemGroup>
 </Project>
