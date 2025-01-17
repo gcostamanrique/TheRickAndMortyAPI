@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TheRickAndMortyAPIVisualizacao")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ca496e491271303cba139527acab876016bdb709")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d184fbbecf9f600eb16e0974211290ac8d0741ee")]
 [assembly: System.Reflection.AssemblyProductAttribute("TheRickAndMortyAPIVisualizacao")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TheRickAndMortyAPIVisualizacao")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

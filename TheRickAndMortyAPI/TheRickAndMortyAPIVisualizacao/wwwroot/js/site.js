@@ -1,6 +1,14 @@
 ﻿
 document.addEventListener("DOMContentLoaded", async function () {
+
     await CarregarTabela();
+
+    const modal = document.getElementById("StaticBackdrop");
+    modal.addEventListener("show.bs.modal", async function (event) {
+        var botao = event.relatedTarget;
+        var dataUrl = botao.getAttribute("data-url");
+        await CarregarModal(dataUrl);
+    })
 });
 
 async function CarregarTabela() {
@@ -41,7 +49,7 @@ function CriarTabela() {
         ordering: true,
         lengthChange: false,
         info: true,
-        pageLength: 15,
+        pageLength: 5,
         language:
         {
             search: "Pesquisar:",
@@ -61,11 +69,11 @@ function CriarTabela() {
         responsive: true,
         data: [],
         columns: [
-            {title: "ID"},
-            {title: "Name"},
-            {title: "Status"},
-            {title: "Species"},
-            {title: "Gender"}
+            { title: "ID" },
+            { title: "Name" },
+            { title: "Species" },
+            { title: "Gender" },
+            { title: "Card" }
         ]
     });
 
@@ -78,9 +86,80 @@ function DesenharLinhaTabela(tabela, dados) {
         tabela.row.add([
             item.id,
             item.name,
-            item.status,
             item.species,
-            item.gender
+            item.gender,
+            RetornarImagem(item.image, item.name, item.url)
         ]);
     });
+}
+
+function RetornarImagem(pathImagem, nome, dataUrl) {
+
+    const botao = document.createElement('button');
+    botao.id = "openModalButton2";
+    botao.className = 'btn';
+    botao.setAttribute('data-bs-toggle', 'modal');
+    botao.setAttribute('data-bs-target', '#StaticBackdrop');
+    botao.setAttribute('data-url', dataUrl);
+    
+    const imagem = document.createElement('img');
+    imagem.src = pathImagem;
+    imagem.style.width = "75px";
+    imagem.style.height = "75px";
+    imagem.alt = "Imagem 3x4 - " + nome;
+
+    botao.appendChild(imagem);
+
+    return botao;
+}
+
+async function CarregarModal(dataUrl) {
+
+    var dadosCharacter = await CarregarDados(dataUrl);
+
+    document.getElementById("CardCharacterImage").src = dadosCharacter.image;
+
+    document.getElementById("CardCharacterId").textContent = `ID: ${dadosCharacter.id}`;
+    document.getElementById("CardCharacterName").textContent = `Name: ${dadosCharacter.name}`;
+    document.getElementById("CardCharacterStatus").textContent = `Status: ${dadosCharacter.status}`;
+    document.getElementById("CardCharacterSpecies").textContent = `Species: ${dadosCharacter.species}`;
+    document.getElementById("CardCharacterType").textContent = `Type: ${dadosCharacter.type}`;
+    document.getElementById("CardCharacterGender").textContent = `Gender: ${dadosCharacter.gender}`;
+
+    var dadosCharacterOriginLocation = await CarregarDados(dadosCharacter.location.url);
+
+    document.getElementById("CardOriginLocationId").textContent = `ID: ${dadosCharacterOriginLocation.id}`;
+    document.getElementById("CardOriginLocationName").textContent = `Name: ${dadosCharacterOriginLocation.name}`;
+    document.getElementById("CardOriginLocationType").textContent = `Type: ${dadosCharacterOriginLocation.type}`;
+    document.getElementById("CardOriginLocationDimension").textContent = `Dimension: ${dadosCharacterOriginLocation.dimension}`;
+
+    var dadosCharacterLocation = await CarregarDados(dadosCharacter.location.url);
+
+    document.getElementById("CardLocationId").textContent = `ID: ${dadosCharacterLocation.id}`;
+    document.getElementById("CardLocationName").textContent = `Name: ${dadosCharacterLocation.name}`;
+    document.getElementById("CardLocationType").textContent = `Type: ${dadosCharacterLocation.type}`;
+    document.getElementById("CardLocationDimension").textContent = `Dimension: ${dadosCharacterLocation.dimension}`;
+
+    document.getElementById("CardEpisodeList").innerHTML = '';
+
+    for (var item of dadosCharacter.episode) {
+
+        var dadosEpisode = await CarregarDados(item);
+
+        var lista = document.createElement("ul");
+        lista.className = "list-group list-group-horizontal";
+
+        var episode = document.createElement("l1");
+        episode.className = "list-group-item";
+        episode.textContent = `${dadosEpisode.episode}`;
+
+        var episodeName = document.createElement("l1");
+        episodeName.className = "list-group-item";
+        episodeName.textContent = `${dadosEpisode.name}`;
+
+        lista.appendChild(episode);
+        lista.appendChild(episodeName);
+
+        document.getElementById("CardEpisodeList").appendChild(lista);
+    };
 }

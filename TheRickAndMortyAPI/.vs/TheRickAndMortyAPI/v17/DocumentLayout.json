@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\compu\\OneDrive\\\u00C1rea de Trabalho\\SL\\TheRickAndMortyAPI\\TheRickAndMortyAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A59CA0F5-0E78-477D-A4E1-DF1F57A3EED4}|TheRickAndMortyAPIVisualizacao\\TheRickAndMortyAPIVisualizacao.csproj|c:\\users\\compu\\onedrive\\\u00E1rea de trabalho\\sl\\therickandmortyapi\\therickandmortyapi\\therickandmortyapivisualizacao\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A59CA0F5-0E78-477D-A4E1-DF1F57A3EED4}|TheRickAndMortyAPIVisualizacao\\TheRickAndMortyAPIVisualizacao.csproj|solutionrelative:therickandmortyapivisualizacao\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A59CA0F5-0E78-477D-A4E1-DF1F57A3EED4}|TheRickAndMortyAPIVisualizacao\\TheRickAndMortyAPIVisualizacao.csproj|c:\\users\\compu\\onedrive\\\u00E1rea de trabalho\\sl\\therickandmortyapi\\therickandmortyapi\\therickandmortyapivisualizacao\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A59CA0F5-0E78-477D-A4E1-DF1F57A3EED4}|TheRickAndMortyAPIVisualizacao\\TheRickAndMortyAPIVisualizacao.csproj|solutionrelative:therickandmortyapivisualizacao\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -15,8 +11,8 @@
       "RelativeMoniker": "D:0:0:{A59CA0F5-0E78-477D-A4E1-DF1F57A3EED4}|TheRickAndMortyAPIVisualizacao\\TheRickAndMortyAPIVisualizacao.csproj|solutionrelative:therickandmortyapivisualizacao\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A59CA0F5-0E78-477D-A4E1-DF1F57A3EED4}|TheRickAndMortyAPIVisualizacao\\TheRickAndMortyAPIVisualizacao.csproj|c:\\users\\compu\\onedrive\\\u00E1rea de trabalho\\sl\\therickandmortyapi\\therickandmortyapi\\therickandmortyapivisualizacao\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{A59CA0F5-0E78-477D-A4E1-DF1F57A3EED4}|TheRickAndMortyAPIVisualizacao\\TheRickAndMortyAPIVisualizacao.csproj|solutionrelative:therickandmortyapivisualizacao\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{A59CA0F5-0E78-477D-A4E1-DF1F57A3EED4}|TheRickAndMortyAPIVisualizacao\\TheRickAndMortyAPIVisualizacao.csproj|c:\\users\\compu\\onedrive\\\u00E1rea de trabalho\\sl\\therickandmortyapi\\therickandmortyapi\\therickandmortyapivisualizacao\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A59CA0F5-0E78-477D-A4E1-DF1F57A3EED4}|TheRickAndMortyAPIVisualizacao\\TheRickAndMortyAPIVisualizacao.csproj|solutionrelative:therickandmortyapivisualizacao\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1471,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,52 +34,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\compu\\OneDrive\\\u00C1rea de Trabalho\\SL\\TheRickAndMortyAPI\\TheRickAndMortyAPI\\TheRickAndMortyAPIVisualizacao\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "TheRickAndMortyAPIVisualizacao\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\compu\\OneDrive\\\u00C1rea de Trabalho\\SL\\TheRickAndMortyAPI\\TheRickAndMortyAPI\\TheRickAndMortyAPIVisualizacao\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "TheRickAndMortyAPIVisualizacao\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-01-15T13:38:55.624Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "site.js",
               "DocumentMoniker": "C:\\Users\\compu\\OneDrive\\\u00C1rea de Trabalho\\SL\\TheRickAndMortyAPI\\TheRickAndMortyAPI\\TheRickAndMortyAPIVisualizacao\\wwwroot\\js\\site.js",
               "RelativeDocumentMoniker": "TheRickAndMortyAPIVisualizacao\\wwwroot\\js\\site.js",
               "ToolTip": "C:\\Users\\compu\\OneDrive\\\u00C1rea de Trabalho\\SL\\TheRickAndMortyAPI\\TheRickAndMortyAPI\\TheRickAndMortyAPIVisualizacao\\wwwroot\\js\\site.js",
               "RelativeToolTip": "TheRickAndMortyAPIVisualizacao\\wwwroot\\js\\site.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-01-15T13:33:10.422Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\compu\\OneDrive\\\u00C1rea de Trabalho\\SL\\TheRickAndMortyAPI\\TheRickAndMortyAPI\\TheRickAndMortyAPIVisualizacao\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "TheRickAndMortyAPIVisualizacao\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\compu\\OneDrive\\\u00C1rea de Trabalho\\SL\\TheRickAndMortyAPI\\TheRickAndMortyAPI\\TheRickAndMortyAPIVisualizacao\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "TheRickAndMortyAPIVisualizacao\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-01-15T11:24:41.785Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\compu\\OneDrive\\\u00C1rea de Trabalho\\SL\\TheRickAndMortyAPI\\TheRickAndMortyAPI\\TheRickAndMortyAPIVisualizacao\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "TheRickAndMortyAPIVisualizacao\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\compu\\OneDrive\\\u00C1rea de Trabalho\\SL\\TheRickAndMortyAPI\\TheRickAndMortyAPI\\TheRickAndMortyAPIVisualizacao\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "TheRickAndMortyAPIVisualizacao\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-01-15T11:23:07.064Z",
               "EditorCaption": ""

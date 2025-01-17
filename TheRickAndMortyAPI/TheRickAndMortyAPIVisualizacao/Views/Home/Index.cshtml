@@ -8,3 +8,49 @@
         <tbody></tbody>
     </table>
 </div>
+
+<div class="modal fade" id="StaticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="StaticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="StaticBackdropLabel">Modal title</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="card mb-3">
+                    <img id="CardCharacterImage" src="https://rickandmortyapi.com/api/character/avatar/2.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Character</h5>
+                        <p id="CardCharacterId" class="card-text"></p>
+                        <p id="CardCharacterName" class="card-text"></p>
+                        <p id="CardCharacterStatus" class="card-text"></p>
+                        <p id="CardCharacterSpecies" class="card-text"></p>
+                        <p id="CardCharacterType" class="card-text"></p>
+                        <p id="CardCharacterGender" class="card-text"></p>                     
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Location Origin</h5>
+                        <p id="CardOriginLocationId" class="card-text"></p>
+                        <p id="CardOriginLocationName" class="card-text"></p>
+                        <p id="CardOriginLocationType" class="card-text"></p>
+                        <p id="CardOriginLocationDimension" class="card-text"></p>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Location</h5>
+                        <p id="CardLocationId" class="card-text"></p>
+                        <p id="CardLocationName" class="card-text"></p>
+                        <p id="CardLocationType" class="card-text"></p>
+                        <p id="CardLocationDimension" class="card-text"></p>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Episode</h5>
+                        <div id="CardEpisodeList"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>

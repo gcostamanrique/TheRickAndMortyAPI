@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "D9ShHae6ZTykl9Hi62xcB4xxY9KlYsaLKyLznJCPocM=",
+  "Hash": "d4MCqdMtdWfzLqLnPNZVyZf1iKr4ySZZYfdQAVSAlDM=",
   "Source": "TheRickAndMortyAPIVisualizacao",
   "BasePath": "_content/TheRickAndMortyAPIVisualizacao",
   "Mode": "Default",
@@ -94,8 +94,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "a2f04jpxcr",
-      "Integrity": "vjPoeyDGTobDv8eNzoHHrASYhcO5IkbYGw5OZYMCy5w=",
+      "Fingerprint": "6vka5c7ewo",
+      "Integrity": "3rI3gEAKw5TqTTwZuj4KjvitBAhO+oha8dW0ZB30yk8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
@@ -185,7 +185,7 @@
       ]
     },
     {
-      "Route": "js/site.a2f04jpxcr.js",
+      "Route": "js/site.6vka5c7ewo.js",
       "AssetFile": "C:\\Users\\compu\\OneDrive\\Área de Trabalho\\SL\\TheRickAndMortyAPI\\TheRickAndMortyAPI\\TheRickAndMortyAPIVisualizacao\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -195,7 +195,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2337"
+          "Value": "2205"
         },
         {
           "Name": "Content-Type",
@@ -203,11 +203,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"vjPoeyDGTobDv8eNzoHHrASYhcO5IkbYGw5OZYMCy5w=\""
+          "Value": "\"3rI3gEAKw5TqTTwZuj4KjvitBAhO+oha8dW0ZB30yk8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 13:54:40 GMT"
+          "Value": "Wed, 15 Jan 2025 13:58:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -217,7 +217,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "a2f04jpxcr"
+          "Value": "6vka5c7ewo"
         },
         {
           "Name": "label",
@@ -225,7 +225,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-vjPoeyDGTobDv8eNzoHHrASYhcO5IkbYGw5OZYMCy5w="
+          "Value": "sha256-3rI3gEAKw5TqTTwZuj4KjvitBAhO+oha8dW0ZB30yk8="
         }
       ]
     },
@@ -240,7 +240,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2337"
+          "Value": "2205"
         },
         {
           "Name": "Content-Type",
@@ -248,11 +248,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"vjPoeyDGTobDv8eNzoHHrASYhcO5IkbYGw5OZYMCy5w=\""
+          "Value": "\"3rI3gEAKw5TqTTwZuj4KjvitBAhO+oha8dW0ZB30yk8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 13:54:40 GMT"
+          "Value": "Wed, 15 Jan 2025 13:58:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -262,7 +262,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-vjPoeyDGTobDv8eNzoHHrASYhcO5IkbYGw5OZYMCy5w="
+          "Value": "sha256-3rI3gEAKw5TqTTwZuj4KjvitBAhO+oha8dW0ZB30yk8="
         }
       ]
     },
