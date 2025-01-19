@@ -52,19 +52,19 @@ function CriarTabela() {
         pageLength: 5,
         language:
         {
-            search: "Pesquisar:",
+            search: "Search",
             searchPlaceholder: "",
             paginate:
             {
-                previous: "Anterior",
-                next: "Próximo"
+                previous: "Previus",
+                next: "Next"
             },
-            info: "Mostrando de _START_ a _END_ de _TOTAL_ registros",
+            info: "Showing _START_ to _END_ of _TOTAL_ records",
             infoEmpty: "Nenhum registro disponível",
-            loadingRecords: "Carregando...",
-            zeroRecords: "Nenhum registro encontrado",
-            processing: "Processando...",
-            emptyTable: "Não há dados disponíveis na tabela"
+            loadingRecords: "Loading...",
+            zeroRecords: "No records found",
+            processing: "Processing...",
+            emptyTable: "No data available"
         },
         responsive: true,
         data: [],
@@ -104,6 +104,7 @@ function RetornarImagem(pathImagem, nome, dataUrl) {
     
     const imagem = document.createElement('img');
     imagem.src = pathImagem;
+    imagem.className = "border rounded-3 fa-beat";
     imagem.style.width = "75px";
     imagem.style.height = "75px";
     imagem.alt = "Imagem 3x4 - " + nome;
@@ -118,8 +119,9 @@ async function CarregarModal(dataUrl) {
     var dadosCharacter = await CarregarDados(dataUrl);
 
     document.getElementById("CardCharacterImage").src = dadosCharacter.image;
+    document.getElementById("CardCharacterImage").className = "rounded-3";
 
-    document.getElementById("CardCharacterId").textContent = `ID: ${dadosCharacter.id}`;
+    //document.getElementById("CardCharacterId").textContent = `ID: ${dadosCharacter.id}`;
     document.getElementById("CardCharacterName").textContent = `Name: ${dadosCharacter.name}`;
     document.getElementById("CardCharacterStatus").textContent = `Status: ${dadosCharacter.status}`;
     document.getElementById("CardCharacterSpecies").textContent = `Species: ${dadosCharacter.species}`;
@@ -128,14 +130,14 @@ async function CarregarModal(dataUrl) {
 
     var dadosCharacterOriginLocation = await CarregarDados(dadosCharacter.location.url);
 
-    document.getElementById("CardOriginLocationId").textContent = `ID: ${dadosCharacterOriginLocation.id}`;
+    //document.getElementById("CardOriginLocationId").textContent = `ID: ${dadosCharacterOriginLocation.id}`;
     document.getElementById("CardOriginLocationName").textContent = `Name: ${dadosCharacterOriginLocation.name}`;
     document.getElementById("CardOriginLocationType").textContent = `Type: ${dadosCharacterOriginLocation.type}`;
     document.getElementById("CardOriginLocationDimension").textContent = `Dimension: ${dadosCharacterOriginLocation.dimension}`;
 
     var dadosCharacterLocation = await CarregarDados(dadosCharacter.location.url);
 
-    document.getElementById("CardLocationId").textContent = `ID: ${dadosCharacterLocation.id}`;
+    //document.getElementById("CardLocationId").textContent = `ID: ${dadosCharacterLocation.id}`;
     document.getElementById("CardLocationName").textContent = `Name: ${dadosCharacterLocation.name}`;
     document.getElementById("CardLocationType").textContent = `Type: ${dadosCharacterLocation.type}`;
     document.getElementById("CardLocationDimension").textContent = `Dimension: ${dadosCharacterLocation.dimension}`;
@@ -147,7 +149,7 @@ async function CarregarModal(dataUrl) {
         var dadosEpisode = await CarregarDados(item);
 
         var lista = document.createElement("ul");
-        lista.className = "list-group list-group-horizontal";
+        lista.className = "list-group flex-fill list-group-horizontal justify-content-center";
 
         var episode = document.createElement("l1");
         episode.className = "list-group-item";

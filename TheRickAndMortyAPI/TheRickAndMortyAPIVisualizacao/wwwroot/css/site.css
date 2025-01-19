@@ -1,1 +1,76 @@
 ﻿
+#body {
+    font-family: 'Comic Sans MS';
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: #262C3A;
+}
+
+#body div.dt-container .dt-paging .dt-paging-button.disabled, div.dt-container .dt-paging .dt-paging-button.disabled:hover, div.dt-container .dt-paging .dt-paging-button.disabled:active {
+    color: #FFFFFF !important;
+}
+
+#body div.dt-container .dt-paging .dt-paging-button.current, div.dt-container .dt-paging .dt-paging-button.current:hover {
+    color: #000000;
+    background: linear-gradient(180deg, #39FF14, #1aa300);
+    border-radius: 10px;
+}
+
+#body div.dt-container .dt-paging .dt-paging-button {
+    border-radius: 10px;
+    background: linear-gradient(180deg, #262C3A, #262C3A);
+}
+
+#body div.dt-container .dt-paging-button:hover {
+    border-radius: 10px;
+    border-color: #FFFFFF;
+}
+
+#body table.dataTable, table.dataTable, table.dataTable, td.dt-type-numeric, table.dataTable td.dt-type-date {
+    text-align: center !important;
+}
+
+#body table.dataTable thead th, th.dt-type-numeric, th.dt-type-date, table.dataTable thead td, table.dataTable tfoot th, table.dataTable tfoot td {
+    text-align: left !important;
+}
+
+.navBackground {
+    background-color: #000000;
+}
+
+.btnBackground, .btnBackground:hover, .btnBackground:active {
+    background-color: #39FF14 !important;
+}
+
+.border {
+    --bs-border-width: 3px;
+    --bs-border-color: #FFFFFF;
+}
+
+.border:hover {
+    --bs-border-width: 3px;
+    --bs-border-color: #39FF14;
+}
+
+.fa-beat {
+    --fa-animation-duration: 2.0s;
+    --fa-beat-scale: 1.15;
+}
+
+.modal-content {
+    --bs-modal-bg: #262C3A;
+}
+
+.card {
+    --bs-card-bg: #262C3A !important;
+    color: #FFFFFF !important;
+}
+
+.card-title {
+    color: #39FF14 !important;
+}
+
+.list-group {
+    --bs-list-group-color: #ffffff !important;
+    --bs-list-group-bg: #262C3A !important;
+}
