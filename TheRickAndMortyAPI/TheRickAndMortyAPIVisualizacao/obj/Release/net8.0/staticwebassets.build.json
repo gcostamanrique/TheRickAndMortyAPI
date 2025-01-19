@@ -1,0 +1,434 @@
+{
+  "Version": 1,
+  "Hash": "p2muPCKDAatdNR0JT6NxXQEfuvp/vePxUsvgbUj92Bs=",
+  "Source": "TheRickAndMortyAPIVisualizacao",
+  "BasePath": "_content/TheRickAndMortyAPIVisualizacao",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "TheRickAndMortyAPIVisualizacao\\wwwroot",
+      "Source": "TheRickAndMortyAPIVisualizacao",
+      "ContentRoot": "C:\\Users\\compu\\OneDrive\\Área de Trabalho\\SL\\TheRickAndMortyAPI\\TheRickAndMortyAPI\\TheRickAndMortyAPIVisualizacao\\wwwroot\\",
+      "BasePath": "_content/TheRickAndMortyAPIVisualizacao",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\compu\\OneDrive\\Área de Trabalho\\SL\\TheRickAndMortyAPI\\TheRickAndMortyAPI\\TheRickAndMortyAPIVisualizacao\\obj\\Release\\net8.0\\scopedcss\\bundle\\TheRickAndMortyAPIVisualizacao.styles.css",
+      "SourceId": "TheRickAndMortyAPIVisualizacao",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\compu\\OneDrive\\Área de Trabalho\\SL\\TheRickAndMortyAPI\\TheRickAndMortyAPI\\TheRickAndMortyAPIVisualizacao\\obj\\Release\\net8.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/TheRickAndMortyAPIVisualizacao",
+      "RelativePath": "TheRickAndMortyAPIVisualizacao#[.{fingerprint}]?.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "Fingerprint": "85u7ml4y4l",
+      "Integrity": "XJ4hKy+6qogfjQD3FVkwvBWnWoEzl2/eVtW7bnJlsSM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\compu\\OneDrive\\Área de Trabalho\\SL\\TheRickAndMortyAPI\\TheRickAndMortyAPI\\TheRickAndMortyAPIVisualizacao\\obj\\Release\\net8.0\\scopedcss\\bundle\\TheRickAndMortyAPIVisualizacao.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\compu\\OneDrive\\Área de Trabalho\\SL\\TheRickAndMortyAPI\\TheRickAndMortyAPI\\TheRickAndMortyAPIVisualizacao\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\TheRickAndMortyAPIVisualizacao.bundle.scp.css",
+      "SourceId": "TheRickAndMortyAPIVisualizacao",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\compu\\OneDrive\\Área de Trabalho\\SL\\TheRickAndMortyAPI\\TheRickAndMortyAPI\\TheRickAndMortyAPIVisualizacao\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/TheRickAndMortyAPIVisualizacao",
+      "RelativePath": "TheRickAndMortyAPIVisualizacao#[.{fingerprint}]!.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "85u7ml4y4l",
+      "Integrity": "XJ4hKy+6qogfjQD3FVkwvBWnWoEzl2/eVtW7bnJlsSM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\compu\\OneDrive\\Área de Trabalho\\SL\\TheRickAndMortyAPI\\TheRickAndMortyAPI\\TheRickAndMortyAPIVisualizacao\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\TheRickAndMortyAPIVisualizacao.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\compu\\OneDrive\\Área de Trabalho\\SL\\TheRickAndMortyAPI\\TheRickAndMortyAPI\\TheRickAndMortyAPIVisualizacao\\wwwroot\\css\\site.css",
+      "SourceId": "TheRickAndMortyAPIVisualizacao",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\compu\\OneDrive\\Área de Trabalho\\SL\\TheRickAndMortyAPI\\TheRickAndMortyAPI\\TheRickAndMortyAPIVisualizacao\\wwwroot\\",
+      "BasePath": "_content/TheRickAndMortyAPIVisualizacao",
+      "RelativePath": "css/site#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zm5kaepy5r",
+      "Integrity": "dVSOFrHBuF3N82ubrZ5P3EsyxB1dvAeJ/cHhb8vpnfk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\compu\\OneDrive\\Área de Trabalho\\SL\\TheRickAndMortyAPI\\TheRickAndMortyAPI\\TheRickAndMortyAPIVisualizacao\\wwwroot\\js\\site.js",
+      "SourceId": "TheRickAndMortyAPIVisualizacao",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\compu\\OneDrive\\Área de Trabalho\\SL\\TheRickAndMortyAPI\\TheRickAndMortyAPI\\TheRickAndMortyAPIVisualizacao\\wwwroot\\",
+      "BasePath": "_content/TheRickAndMortyAPIVisualizacao",
+      "RelativePath": "js/site#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6o7naxm2ye",
+      "Integrity": "ltQBCwFZh3UxGofo96r5pcwsD556mqaUYrkKjuATjZU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\site.js"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/site.css",
+      "AssetFile": "C:\\Users\\compu\\OneDrive\\Área de Trabalho\\SL\\TheRickAndMortyAPI\\TheRickAndMortyAPI\\TheRickAndMortyAPIVisualizacao\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1894"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dVSOFrHBuF3N82ubrZ5P3EsyxB1dvAeJ/cHhb8vpnfk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 19 Jan 2025 15:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dVSOFrHBuF3N82ubrZ5P3EsyxB1dvAeJ/cHhb8vpnfk="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.zm5kaepy5r.css",
+      "AssetFile": "C:\\Users\\compu\\OneDrive\\Área de Trabalho\\SL\\TheRickAndMortyAPI\\TheRickAndMortyAPI\\TheRickAndMortyAPIVisualizacao\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1894"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dVSOFrHBuF3N82ubrZ5P3EsyxB1dvAeJ/cHhb8vpnfk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 19 Jan 2025 15:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zm5kaepy5r"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dVSOFrHBuF3N82ubrZ5P3EsyxB1dvAeJ/cHhb8vpnfk="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.6o7naxm2ye.js",
+      "AssetFile": "C:\\Users\\compu\\OneDrive\\Área de Trabalho\\SL\\TheRickAndMortyAPI\\TheRickAndMortyAPI\\TheRickAndMortyAPIVisualizacao\\wwwroot\\js\\site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5869"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ltQBCwFZh3UxGofo96r5pcwsD556mqaUYrkKjuATjZU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 19 Jan 2025 16:15:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6o7naxm2ye"
+        },
+        {
+          "Name": "label",
+          "Value": "js/site.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ltQBCwFZh3UxGofo96r5pcwsD556mqaUYrkKjuATjZU="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.js",
+      "AssetFile": "C:\\Users\\compu\\OneDrive\\Área de Trabalho\\SL\\TheRickAndMortyAPI\\TheRickAndMortyAPI\\TheRickAndMortyAPIVisualizacao\\wwwroot\\js\\site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5869"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ltQBCwFZh3UxGofo96r5pcwsD556mqaUYrkKjuATjZU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 19 Jan 2025 16:15:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ltQBCwFZh3UxGofo96r5pcwsD556mqaUYrkKjuATjZU="
+        }
+      ]
+    },
+    {
+      "Route": "TheRickAndMortyAPIVisualizacao.85u7ml4y4l.bundle.scp.css",
+      "AssetFile": "C:\\Users\\compu\\OneDrive\\Área de Trabalho\\SL\\TheRickAndMortyAPI\\TheRickAndMortyAPI\\TheRickAndMortyAPIVisualizacao\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\TheRickAndMortyAPIVisualizacao.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XJ4hKy+6qogfjQD3FVkwvBWnWoEzl2/eVtW7bnJlsSM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 19 Jan 2025 16:32:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "85u7ml4y4l"
+        },
+        {
+          "Name": "label",
+          "Value": "TheRickAndMortyAPIVisualizacao.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XJ4hKy+6qogfjQD3FVkwvBWnWoEzl2/eVtW7bnJlsSM="
+        }
+      ]
+    },
+    {
+      "Route": "TheRickAndMortyAPIVisualizacao.85u7ml4y4l.styles.css",
+      "AssetFile": "C:\\Users\\compu\\OneDrive\\Área de Trabalho\\SL\\TheRickAndMortyAPI\\TheRickAndMortyAPI\\TheRickAndMortyAPIVisualizacao\\obj\\Release\\net8.0\\scopedcss\\bundle\\TheRickAndMortyAPIVisualizacao.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XJ4hKy+6qogfjQD3FVkwvBWnWoEzl2/eVtW7bnJlsSM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 19 Jan 2025 16:32:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "85u7ml4y4l"
+        },
+        {
+          "Name": "label",
+          "Value": "TheRickAndMortyAPIVisualizacao.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XJ4hKy+6qogfjQD3FVkwvBWnWoEzl2/eVtW7bnJlsSM="
+        }
+      ]
+    },
+    {
+      "Route": "TheRickAndMortyAPIVisualizacao.bundle.scp.css",
+      "AssetFile": "C:\\Users\\compu\\OneDrive\\Área de Trabalho\\SL\\TheRickAndMortyAPI\\TheRickAndMortyAPI\\TheRickAndMortyAPIVisualizacao\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\TheRickAndMortyAPIVisualizacao.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XJ4hKy+6qogfjQD3FVkwvBWnWoEzl2/eVtW7bnJlsSM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 19 Jan 2025 16:32:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XJ4hKy+6qogfjQD3FVkwvBWnWoEzl2/eVtW7bnJlsSM="
+        }
+      ]
+    },
+    {
+      "Route": "TheRickAndMortyAPIVisualizacao.styles.css",
+      "AssetFile": "C:\\Users\\compu\\OneDrive\\Área de Trabalho\\SL\\TheRickAndMortyAPI\\TheRickAndMortyAPI\\TheRickAndMortyAPIVisualizacao\\obj\\Release\\net8.0\\scopedcss\\bundle\\TheRickAndMortyAPIVisualizacao.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XJ4hKy+6qogfjQD3FVkwvBWnWoEzl2/eVtW7bnJlsSM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 19 Jan 2025 16:32:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XJ4hKy+6qogfjQD3FVkwvBWnWoEzl2/eVtW7bnJlsSM="
+        }
+      ]
+    }
+  ]
+}
