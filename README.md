@@ -8,7 +8,7 @@ O projeto foi desenvolvido com a estrutura de um projeto **ASP.NET MVC**, porém
 
 ## Objetivo
 
-O objetivo do **TheRickAndMortyAPI** é demonstrar algumas técnicas de consulta em **JavaScript**, **ordenação** e **apresentação** de dados utilizando o **DataTable**. 
+O objetivo do **TheRickAndMortyAPI** é demonstrar algumas técnicas de **consulta**, **ordenação** e **apresentação** de dados utilizando o **DataTable** em **JavaScript**. 
 
 ## Configuração
 
